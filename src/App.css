@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  padding:3rem;
+  text-align: center;
+}
+
+.container {
+  min-height: 650px;
+  width: 500px;
+  padding: 1rem;
+  box-shadow: 3px 3px 1.5px 2px linear-gradient(to right, #A9F1DF,#FFBBBB); 
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  background: #f8ad9d;
+
+  border-radius: 20px;
+}
+
+.header {
+  font-size: 20px;
+}
+
+.inp {
+  display:inline-flex;
+  margin: 5px;
+}
+.int {
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+.btn {
+  padding: 2px;
+  background-color:#f6e6fa;
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+  width: 55px;
+}
+.btn:hover {
+  transform: scale(0.9);
+  font-weight: 400;
+}
